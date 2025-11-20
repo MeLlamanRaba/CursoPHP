@@ -24,8 +24,21 @@ if ($nota2 >= 5) {
 }
 
 //If-Else
-if($nota1>=5 && $nota2>=5){ //Condicional "Y"
+if ($nota1 >= 5 && $nota2 >= 5) { //Condicional "Y"
     echo "Nota1 y nota 2 estan aprobaddas <br>";
-}else{
+} else {
     echo "Alguna de las dos notas no esta aprobada <br>";
 }
+
+//Sintaxis alternativa
+if ($nota1 >= 5 && $nota2 >= 5): //Condicional 'Y'. Si se cumplen las dos
+    echo "Nota1 y nota 2 estan aprobaddas <br>";
+else:
+    echo "Alguna de las dos notas no esta aprobada <br>";
+endif;
+
+if ($nota1 >= 5 || $nota2 >= 5): //Condicional 'O'. Si se cumple al menos una
+    echo "Almenos una esta aprobada <br>";
+else:
+    echo "Ninguna esta aprobada <br>";
+endif;
