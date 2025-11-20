@@ -6,7 +6,8 @@ Aquí voy recopilando **ejercicios, proyectos y apuntes** mientras realizo un **
 ---
 
 ## 🧰 Tecnologías que estoy aprendiendo
-- 🐘 **PHP**  
+- 🐘 **PHP**
+- 🌐 **HTML5**, **CSS3** y **JavaScript**
 
 ---
 
