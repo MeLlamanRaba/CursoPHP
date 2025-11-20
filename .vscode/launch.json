@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Ejecutar archivo actual",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost/CursoPHP/${relativeFile}",
+            "cwd": "${workspaceFolder}",
+        },
+        {
+            "name": "Escuchando xdebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003
+        }
+    ]
+}
