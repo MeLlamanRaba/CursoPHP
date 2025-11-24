@@ -1,0 +1,273 @@
+* {
+   font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+   font-size: 16px;
+   box-sizing: border-box; /* Incluye padding y border en el tamaño total */
+   margin: 0;
+   padding: 0;
+}
+
+/* General */
+body {
+  margin: 0.5rem;
+  background-color: cyan;
+}
+
+p { 
+  margin-bottom: 1rem;
+}
+
+h1 { 
+  margin-bottom: 2rem;
+}
+/* Header */
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header div img {
+  margin-right: 0.5rem;
+}
+
+header div p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.logo{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 2rem;
+}
+/* Navegación */
+nav {
+  background-color: #333;
+  background-image: url(../images/fondoOscuro.webp);
+  color: white;
+  padding: 1rem; /* Espacio interno del nav */
+  display: flex; /* Activar Flexbox */
+  justify-content: center; /* Espacio entre los botones */
+  align-items: center; /* Alinear verticalmente el contenido del nav */
+  gap: 1rem; /* Espaciado opcional */
+}
+
+nav a {
+  color: white;
+  text-decoration: none; /* Sin el subrayado por omisión de los enlaces */
+  display: flex; /* Activar Flex */
+  flex-direction: column; /* Ícono arriba, texto debajo (en columna) */
+  align-items: center; /* Centrar contenido horizontalmente */
+  justify-content: center; /* Centrar contenido verticalmente */
+  background-color: #add8e6; /* Azul claro */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+nav a img {
+  max-width: 100%; /* Prevenir desbordamiento */
+}
+
+/* Efecto al pasar el ratón sobre los enlaces de la navegación */
+nav a:hover {
+  background-color: #4682b4; /* Azul oscuro */
+}
+
+/* Efecto al hacer clic en los enlaces de la navegación */
+nav a:active {
+  transform: scale(0.95); /* Efecto de pulsado */
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Clase Contenedor principal */
+.container {
+  display: flex;
+  padding-bottom: 5rem; /* Deja espacio suficiente para el footer */
+}
+
+/* Clase Texto Justificado*/
+.txtJustify {
+  text-align: justify;
+  text-justify: inter-word; /* Justifica el texto entre palabras */
+}
+
+/* Clase para estilo de galería de imágenes*/
+.gallery {
+  display: grid; /* Activa el sistema de Grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  gap: 1rem; /* Espaciado entre las columnas y filas */
+  max-width: 100%; /* Asegura que no desborde el contenedor */
+  margin: auto; /* Centra la galería en la página */
+  place-items: center; /* Centra las imágenes en sus celdas (horizontal y vertical) */
+}
+
+/* Ajuste de las imágenes dentro de la galería */
+.gallery img {
+  width: 100%; /* Las imágenes ocupan todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción original de las imágenes */
+  object-fit: contain; /* Asegura que las imágenes completas sean visibles */
+  border-radius: 0.5rem; /* Opcional: esquinas redondeadas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Aside */
+aside {
+  background-color: #444;
+  color: white;
+  width: 15%; /* Mantiene el porcentaje */
+  padding: 1rem;
+  box-sizing: border-box;
+  /************************/
+  display: flex;
+  flex-direction: column; /* Organizar botones en columna */
+  gap: 1rem; /* Espaciado uniforme entre botones */
+  overflow: hidden; /* Prevenir desbordamientos */
+}
+
+aside h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+/* Botones de aside*/
+aside a {
+  color: white;
+  text-decoration: none;
+  display: flex; /* Alinear contenido interno */
+  flex-direction: column; /* Ícono encima del texto */
+  align-items: center;
+  justify-content: center; /* Centrar todo el contenido */
+  background-color: #add8e6; /* Azul claro */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.1s;
+  height: 100%; /* Asegurar tamaño dinámico */
+  box-sizing: border-box; /* Incluir padding en el tamaño */
+  max-width: 100%; /* Limitar ancho de los botones */
+  overflow: hidden; /* Evitar desbordamientos */
+}
+
+aside a span {
+  word-wrap: break-word; /* Manejar texto largo */
+}
+
+aside a:hover {
+  background-color: #4682b4; /* Azul oscuro */
+}
+
+aside a:active {
+  transform: scale(0.95); /* Efecto de pulsado */
+}
+
+aside a img {
+  margin-bottom: 0.5rem; /* Espaciado entre ícono y texto */
+  max-width: 100%; /* Evitar que las imágenes desborden */
+}
+
+/* Sección */
+section {
+  width: 85%; /* Mantiene el porcentaje */
+  padding: 1rem;
+  box-sizing: border-box;
+  font-size: 1rem; /* Adaptable a escala del usuario */
+  background-image: url(../images/imgFondo1.jpg);
+  background-size:cover; /* Ajustar tamaño de la imagen de fondo*/
+  background-position: center;
+
+}
+
+/*Formulario*/
+form {
+  background-color: #ebeebf;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 1.5rem; /* Espacio superior al formulario**/
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #363105;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+}
+form button:hover {
+  background-color: #a05907;
+}
+form button:active {
+  transform: scale(0.95); /* Efecto de pulsado */
+}
+
+/* Footer */
+footer {
+  background-image: url(../images/fondoOscuro.webp);
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  padding: 2rem; /* Espaciado interno**/
+  font-size: 1rem;
+  border-radius: 5px; /* Bordes redondeados**/
+  margin-bottom: 0.2rem;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  body {
+    font-size: 1.5rem; /* Aumenta el tamaño de fuente para pantallas pequeñas**/
+    margin: 0.25rem; /* Reduce el margen para pantallas pequeñas**/
+  }
+
+  aside {
+    width:30%;
+  }
+
+  aside a {
+    flex-direction: row; /* Ícono y texto en línea */
+    justify-content: center; /* Centrar contenido horizontalmente**/
+    align-items: center; /* Centrar contenido verticalmente**/
+    padding: 0.5rem; /* Reducir padding */
+    height: auto; /* Ajustar altura al contenido */
+  }
+
+  aside a span {
+    display: none; /* Oculta el texto del vínculo */
+  }
+
+  aside a img {
+    max-width: 50%; /* Ajustar tamaño del ícono */
+    height: auto; /* Mantener proporción */
+    margin-bottom: 0; /* Eliminar espacio cuando texto está oculto */
+  }
+
+  /* Ajuste de las imágenes dentro de la galería en pantallas pequeñas*/
+  .gallery {
+    grid-template-columns:1fr; /* 1 columna para pantallas muy pequeñas */
+  }
+}
