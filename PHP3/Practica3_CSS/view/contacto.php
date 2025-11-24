@@ -1,39 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ejemplo de uso de CSS- contacto</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" type="text/css" href="../styles/styles.css"> -->
-</head>
-<body>
-    <header>
-      <div class=logo>
-        <img src="../images/logoEjemplo.jpg" 
-            title="Esto es una imagen de un logo" 
-            alt="Aquí debería haber aparecido un logo"
-            width="100" 
-            height="85" 
-        />
-        <p>EmpreS.A.</p>
-      </div>
-    </header>
-    <nav>
-      <a href="../index.html" class=boton>
-        <img width="64" height="64" src="https://img.icons8.com/ios/50/home--v1.png" alt="home--v1"/>
-        Inicio
-      </a>
-      <a href="../view/sobremi.html" class=boton>
-        <img width="64" height="64" 
-          src="https://img.icons8.com/external-creatype-outline-colourcreatype/64/external-eyes-basic-creatype-outline-colourcreatype.png" 
-          alt="external-eyes-basic-creatype-outline-colourcreatype"/>
-        Sobre mí
-      </a>
-      <a href="../view/contacto.html" class=boton>
-        <img width="64" height="64" src="https://img.icons8.com/windows/64/database-mail--v1.png" alt="database-mail--v1"/>
-        Contacto
-      </a> 
-    </nav>
+<?php 
+include "header.php";
+include "nav.php";
+?>
     <div class="container">
       <aside>
         <h3>Menu</h3>
