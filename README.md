@@ -18,7 +18,7 @@ Mejorar mis habilidades como desarrollador web, comprender el ecosistema libre y
 
 ## 📂 Contenido del repositorio
 - 📁 **/PHP1** – Introduccion a PHP  
-- 📁 **/PHP2** – Volumen 2  
+- 📁 **/PHP2** – Arrays, operadores y estructuras de control  
 - 📁 **/PHP3** – Funciones  
 
 ---

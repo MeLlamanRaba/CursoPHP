@@ -1,0 +1,64 @@
+/* Estilos para el cuerpo general del documento */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 20px;
+}
+
+/* Estilos para el título principal (h1) */
+h1 {
+  color: #0056b3;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el subtítulo (h3) */
+h3 {
+  color: #007bff;
+  margin-top: 25px;
+  font-size: 1.5em;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+/* Estilos para la lista (ul) */
+ul {
+  list-style-type: none; /* Elimina los marcadores por defecto */
+  padding: 0;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para cada elemento de la lista (li) */
+li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease;
+}
+
+li:last-child {
+  border-bottom: none; /* Elimina el borde inferior del último ítem */
+}
+
+/* Estilo de transición al pasar el ratón por encima de un ítem de lista */
+li:hover {
+  background-color: #e9ecef;
+}
+
+/* Estilos para los enlaces (a) */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
