@@ -20,6 +20,8 @@ Mejorar mis habilidades como desarrollador web, comprender el ecosistema libre y
 - 📁 **/PHP1** – Introduccion a PHP  
 - 📁 **/PHP2** – Arrays, operadores y estructuras de control  
 - 📁 **/PHP3** – Funciones  
+- 📁 **/PHP4** – Archivos  
+- 📁 **/PHP5** – Cookies
 
 ---
 
