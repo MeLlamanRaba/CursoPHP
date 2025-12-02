@@ -1,0 +1,6 @@
+body {
+  background-image: url("../images/fondoBeige.jpg");
+  background-size: cover; /* Cubre todo el contenedor */
+  background-repeat: no-repeat; /* Que no se repita */
+  background-attachment: fixed; /* Efecto fijo al hacer el scroll */
+}
