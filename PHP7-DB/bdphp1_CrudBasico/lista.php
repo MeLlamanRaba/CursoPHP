@@ -1,4 +1,4 @@
-<?php
+n<?php
   //Conexion a Base de Datos
   include_once "conexion.php";
 ?>
